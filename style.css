@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+.imperial-script-regular {
+    font-family: "Imperial Script", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor-01: #0F1012;
+    --cor-02: #21292A;
+    --cor-03: #202124;
+    --cor-04: #313536;
+    --cor-05: #384043;
+
+    --font-real:'Imperial Script', cursive;
+}
+
+body{
+    background-color: var(--cor-04);
+    font-family: Arial, Helvetica, sans-serif;
+}
+mark{
+    background-color: #2ac874a4;
+}
+
+header{
+    background-color: #21292A;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+header > h1{
+    font-family: var(--font-real);
+    font-size: 3.3em;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+header > p{
+    color: #2f7863;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 30px;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 13px;
+}
+
+nav{
+    background-color: var(--cor-02);
+    padding: 10px;
+    text-align: right;
+    border-radius: 0px 0px 10px 10px;
+}
+nav a{
+    color: #06543e;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+nav > a:hover{
+    background-color: var(--cor-03);
+}
+a.externo::after{
+    content: '\1F517';
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--cor-03);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+main img{
+    width: 100%;
+    border-radius: 12px;
+}
+main h1{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding-bottom: 13px;
+}
+main h2{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+main p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 13px;
+    text-indent: 15px;
+    line-height: 1.5em;
+}
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(10, 97, 68);
+    background-color: #21292A;
+    padding: 2px 4px;
+}
+main a:hover{
+    text-decoration: underline;
+    color: aquamarine;
+}
+
+aside h3{
+    color: gray;
+    text-align: center;
+    padding-bottom: 13px;
+    background-color: var(--cor-02);
+}
+aside{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-02);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+aside > ul{
+    list-style-position: inside;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
